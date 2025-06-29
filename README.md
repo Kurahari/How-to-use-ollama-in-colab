@@ -28,11 +28,13 @@ ollama pull deepseek-r1:7b
 ```
 
 3.Verifying the Model
+
 in []
 ```bash
 !ollama list
 ```
 4.Run Ollama in Colab
+
 in []
 ```bash
 %pip install -U langchain-ollama
