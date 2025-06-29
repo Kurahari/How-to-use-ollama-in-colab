@@ -1,5 +1,5 @@
 # How-to-use-Ollama-in-colab
-An easy way to make Ollama run on colab T4
+An easy way to make Ollama run on colab T4 (My native language is not English so Sorry about every wrong spelling.)
 ## Installation & running
 1.Set up Colab notebook to support command-line
 
@@ -56,12 +56,12 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
-##Key Points to Consider
+## Key Points to Consider
 - It will not be as fast as running locally due to network latency and resource limitations of the T4.
 - Be careful of your usage limits.
 - Some features of Ollama may not work in the Colab due to its virtual machine nature.
 
-##Best Practices
+## Best Practices
 1. Use small models
 2. If you need longer outputs, consider generating text in chunks rather than all at once.
 3. Remember to save your notebook frequently, as Colab sessions can sometimes terminate unexpectedly.
