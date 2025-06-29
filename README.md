@@ -1,5 +1,5 @@
 # How-to-use-Ollama-in-colab
-An easy way to make Ollama run on colab
+An easy way to make Ollama run on colab T4
 ## Installation
 1.Set up Colab notebook to support command-line
 
