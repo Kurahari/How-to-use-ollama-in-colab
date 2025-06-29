@@ -1,6 +1,6 @@
 # How-to-use-Ollama-in-colab
 An easy way to make Ollama run on colab T4
-## Installation
+## Installation & running
 1.Set up Colab notebook to support command-line
 
 ```bash
@@ -48,6 +48,10 @@ response = ollama.chat(model='deepseek-r1:7b', messages=[
 ])
 print(response.message.content)
 ```
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
