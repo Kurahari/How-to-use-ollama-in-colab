@@ -52,9 +52,9 @@ response = ollama.chat(model='deepseek-r1:7b', messages=[
 print(response.message.content)
 ```
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+- Please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
+- Please make sure to update tests as appropriate.
 
 ## Key Points to Consider
 - It will not be as fast as running locally due to network latency and resource limitations of the T4.
