@@ -26,6 +26,26 @@ ollama serve
 ```bash
 ollama pull deepseek-r1:7b
 ```
+
+3.Verifying the Model
+in []
+```bash
+!ollama list
+```
+4.Run Ollama in Colab
+in []
+```bash
+%pip install -U langchain-ollama
+```
+Let's test
+```bash
+import ollama
+
+response = ollama.chat(model='deepseek-r1:7b', messages=[
+    {'role': 'user', 'content': 'Can you write a code that output Hello World in Python?'},
+])
+print(response.message.content)
+```
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
